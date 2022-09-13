@@ -1,10 +1,9 @@
 #include "main.h"
-/**
-* print_alphabet - print the function abc
-*
-* return (0)
-*/
 
+/**
+* main - print_alphabet
+* Return (0)
+*/
 
 void print_alphabet(void)
 {
@@ -14,6 +13,6 @@ void print_alphabet(void)
 	{
 		_putchar(i);
 	}
-_putchar('\n')
+	_putchar('\n');
 }
 

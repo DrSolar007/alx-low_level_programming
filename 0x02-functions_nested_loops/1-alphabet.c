@@ -2,7 +2,9 @@
 
 /**
 * main - print_alphabet
+*
 * Description: print a to z
+*
 * Return: 0
 */
 

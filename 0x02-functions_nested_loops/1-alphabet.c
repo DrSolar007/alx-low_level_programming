@@ -5,11 +5,10 @@
 *
 * Description: print a to z
 *
-* Return: 0
+* Return: Always 0
 */
 
 void print_alphabet(void)
-
 {
 	char i;
 

@@ -3,18 +3,14 @@
 #include "main.h"
 
 /**
- *
- *  * main - main - Entry point
- *
- *   *
- *
- *    * desc:program that prints _putchar, followed by a new line.
+* main - main - Entry point
+* desc:program that prints _putchar, followed by a new line.
  *
  *     * The program should return 0
  *
  *      * Return: Always 0 (Sucess)
  *
- *       */
+*/
 
 int main(void)
 

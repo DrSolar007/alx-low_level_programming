@@ -1,9 +1,8 @@
 #include "main.h"
 /**
-* print_alphabet - print the alphabet, in lowercase, followed by a new line.
+* print_alphabet - print the function abc
 *
-*
-* Return: Always 0.
+* return (0)
 */
 void print_alphabet(void)
 {
@@ -13,5 +12,6 @@ void print_alphabet(void)
 	{
 		_putchar(i);
 	}
-_putchar('\n');
+_putchar('\n')
 }
+

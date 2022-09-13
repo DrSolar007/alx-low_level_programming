@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
-* main - print_alphabe
+* main - print_alphabet
 * description - print a to z
 * Return (0)
 */
 
 void print_alphabet(void)
+
 {
 	char i;
 

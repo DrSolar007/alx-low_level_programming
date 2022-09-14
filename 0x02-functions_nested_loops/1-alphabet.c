@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
-* main - print_alphabet
+* print_alphabet - Entry  point
 *
-* Description: print a to z
+* Description: a function that prints thr alphabet
+* in lowercase followed by a new line
 *
 * Return: Always 0
 */

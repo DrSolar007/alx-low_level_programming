@@ -1,18 +1,19 @@
-nclude "main.h"
+#include "main.h"
+#include <stdio.h>
 
 /**
-* _strspn - Locates a character in a string
-* @s: This is the main C string to be scanned.
-* @accept: This is the string containing the list of characters to match in s
-* Return: return count
-*/
+ *  _strspn - length of prefix substring
+ *  @s: string to go through
+ *  @accept: accepted bytes
+ *  Return: returns unsigned values
+ */
 
-unsigned int _strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept);
 
 {
 	int i;
 	int j;
-	unsigned int a = 0;
+	unsigned int result = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{

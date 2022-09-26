@@ -10,31 +10,21 @@ nclude "main.h"
 unsigned int _strspn(char *s, char *accept)
 
 {
-	int i, j;
-	int count = 0;
-	char *str1, *str2;
-	
-	str1 = s;
-	str2 = accept;
+	int i;
+	int j;
+	unsigned int a = 0;
 
-	i = 0;
-	while (str1[i] != '\0') /*Declaring WHILE *s */
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		j = 0;
-		while (str2[j] != '\0') /*Declaring WHILE *accept*/
+		for (j = 0; s[j] != '\0'; j++)
 		{
-			if (str2[j] == str1[i]) /*Evaluate condition*/
+			if (s[i] == accept [j])
 			{
-				count++; /*count number*/
+				a++;
 				break;
 			}
-			j++;    /*add j+1*/
 		}
-		if (s[i] != accept[j]) /*If aren't equals*/
-		{
-			break;
-		}
-		i++; /*add x+1*/
+		if (s[j] == '\0')
+			return (a);
 	}
-	return (count); /*return the value of count*/
-}
+	return (a);

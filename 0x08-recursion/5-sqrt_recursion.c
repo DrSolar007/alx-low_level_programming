@@ -34,7 +34,6 @@ int _sqrt_recursion(int n)
 
 	if (i < 0) /*If n is negative*/
 		return (-1);
-	else
 	{
 		return (_evaluate(i, n)); /*Recursive call*/
 	}

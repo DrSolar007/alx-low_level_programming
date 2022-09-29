@@ -1,9 +1,9 @@
 #include "main.h"
 
-/*
-* main: _puts_recursion - prints a string
-* string _puts_recursion
-* description: @s: pointer block of memory to fill
+/**
+*_puts_recursion - prints a string
+* *s
+* @s:pointer block of memory to fill
 * Return: void
 */
 
